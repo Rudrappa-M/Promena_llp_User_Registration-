@@ -38,5 +38,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('Accounts/', include('Accounts.urls')),
     path('Users/',include('Users.urls')),
+    path('home/',include('home.urls'))
 
 ]
