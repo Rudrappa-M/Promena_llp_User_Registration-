@@ -214,3 +214,5 @@ EMAIL_HOST_USER = 'rudrappa94922@gmail.com'
 EMAIL_HOST_PASSWORD = 'Ammananna@1'
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'Promena Team <noreply@promena.com>'
+import django_heroku
+django_heroku.settings(locals())
