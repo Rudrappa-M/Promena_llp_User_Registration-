@@ -40,7 +40,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('Accounts/', include('Accounts.urls')),
     path('Users/',include('Users.urls')),
-    path('home/',include('home.urls'))
+    # path('home/',include('home.urls'))
 
 ]
 urlpatterns = urlpatterns + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
