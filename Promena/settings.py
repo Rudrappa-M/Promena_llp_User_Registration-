@@ -135,8 +135,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
-
+    os.path.join(BASE_DIR, 'static'),
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'build')
 
@@ -214,5 +213,6 @@ EMAIL_HOST_USER = 'rudrappa94922@gmail.com'
 EMAIL_HOST_PASSWORD = 'Ammananna@1'
 EMAIL_USE_TLS = True
 DEFAULT_FROM_EMAIL = 'Promena Team <noreply@promena.com>'
+
 import django_heroku
 django_heroku.settings(locals())
